@@ -1,0 +1,95 @@
+.first-content{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-content {
+    background-color: white;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    min-height: 36rem;
+    padding: 1rem;
+    margin: -1rem;
+}
+.back-button {
+    background: none;
+    border: none;
+    
+}
+
+.back-button i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#name {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+
+.types .type {
+    color: #fff;
+    padding: .30rem .9rem;
+    margin: .25rem 0;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+#number {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.image {
+    margin-top: 2rem;
+    margin-bottom: -2.4rem;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+  
+}
+
+.about-detail-name,
+.about-detail-info,
+.generic-detail-name,
+.generic-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-detail-name,
+.generic-detail-name {
+    margin-right: 4rem;
+    opacity: 0.6;
+}
+
+.about-detail-name-item,
+.generic-detail-name-item {
+    min-width: 90px;
+}
+
+.about-detail-info-item {
+    text-transform: capitalize;
+}
+
+.generic{
+    display: flex;
+    margin-top: 1.2rem;
+}
+
+.second-content-title {
+    margin-top: 2.4rem;
+}
+
+.generic-detail-info {
+    text-transform: capitalize;
+}
